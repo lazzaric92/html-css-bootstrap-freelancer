@@ -1,0 +1,44 @@
+h2 {
+    text-transform: uppercase;
+}
+
+.smaller_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #2c3e50;
+    height: 60px;
+}
+
+main > .container-fluid {
+    background-color: #1abc9c;
+} 
+
+.divider_line {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 0 3px;
+    border-radius: 32px;
+    vertical-align: middle;
+}
+
+.text-white .divider_line {
+    background-color: white;
+}
+
+article {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #3a546d;
+}
+
+footer div.container-fluid{
+    background-color: #2c3e50;
+    
+}
