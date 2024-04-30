@@ -37,11 +37,6 @@ p {
     margin: 0 auto;
 }
 
-/* || HEADER */
-nav {
-    height: 60px;
-}
-
 /* || MAIN */
 #jumbotron img{
     width: 250px;
@@ -72,12 +67,11 @@ article>img,
     font: var(--fa-font-solid);
 }
 
-/* || FOOTER */
-footer {
+#main-footer {
     background-color: #3a546d;
 }
 
-footer a {
+#main-footer a {
     width: 3rem;
     height: 3rem;
     border: 1px solid white;
