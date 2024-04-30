@@ -3,12 +3,13 @@
     --dark-grey: #2c3e50;
 }
 
-ul {
-    list-style-type: none;
+input,
+textarea {
+    border: none;
 }
 
-li {
-    display: inline-block;
+ul {
+    list-style-type: none;
 }
 
 a {
@@ -23,7 +24,7 @@ a:visited {
 h1,
 h2,
 p,
-input {
+[type="submit"] {
     font-weight: 600;
 }
 
@@ -31,19 +32,17 @@ p {
     font-size: 1.15rem;
 }
 
-input {
-    font-weight: bold;
-}
-
 .my_smaller-container {
     width: 65%;
     margin: 0 auto;
 }
 
+/* || HEADER */
 nav {
     height: 60px;
 }
 
+/* || MAIN */
 #jumbotron img{
     width: 250px;
 }
@@ -62,17 +61,9 @@ nav {
     color: var(--dark-grey);
 }
 
-.text-white .divider_line {
-    background-color: white;
-}
-
-article>img {
+article>img,
+[type="submit"] {
     border-radius: 10px;
-}
-
-#about button {
-    background-color: transparent;
-    border: 1px solid white;
 }
 
 #about button::before{
@@ -81,12 +72,9 @@ article>img {
     font: var(--fa-font-solid);
 }
 
+/* || FOOTER */
 footer {
     background-color: #3a546d;
-}
-
-footer li {
-    margin-right: .5rem;
 }
 
 footer a {
@@ -110,5 +98,9 @@ footer a {
 
 .my_font-special {
     color: var(--dark-acqua);
+}
+
+.my_border-bottom {
+    border-bottom: 1px solid #cccccc;
 }
 
